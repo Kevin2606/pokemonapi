@@ -29,7 +29,7 @@ const listCardPokemon = (pokemon_name) => {
                     sprites: {
                         other: {
                             'official-artwork': {
-                                front_default: '../img/404pokemon.png'
+                                front_default: 'https://res.cloudinary.com/dulupp7yk/image/upload/v1684944736/torresdehanoi/404pokemon_ocwsbo.png'
                             }
                         }
                     }
