@@ -52,7 +52,6 @@ class ModalPokemon {
         return statsTemplate;
     }
     template(){
-        console.log(this.getRes());
         const {name, sprites} = this.getRes();
         document.querySelector('#name_pokemon').innerText = name;
         document.querySelector('#img_pokemon_modal').src = sprites.other['official-artwork'].front_default;

@@ -3,10 +3,11 @@ import CardPokemon from "../webcomponents/cardPokemones.js";
 
 new CardPokemon();
 let timeoutId = null, nextURL = null, previousURL = null;
-
+document.querySelector('body').style.overflow = 'hidden';
 const center_on_page = document.querySelector('.center-on-page');
 setTimeout(() => {
     center_on_page.style.display = 'none';
+    document.querySelector('body').style.overflow = 'auto';
 }, 4500);
 
 const getAllPokeomnes = async (limit) => {
